@@ -91,3 +91,15 @@ The getAll method returns all the menu items in a list of objects.
 	    }
     ]
 ```
+
+<h5 id="POST">Post Item Details</h5>
+
+To use this route, you need to send a json as the request body.
+
+```json
+    {
+	    "title": "Hamburguer",
+	    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjU0q_h8u0k4pHoGkKKAul0eVIF2SOPC7dQA&s",
+	    "price": 25
+    }
+```
