@@ -21,3 +21,6 @@
     <a href="#started">Getting Started</a> |
     <a href="#routes">Endpoints</a>
 </p>
+
+
+<b>MenuAPI, is a Rest API created with Java and Spring that allows users to add and list items in a digital menu.</b>
