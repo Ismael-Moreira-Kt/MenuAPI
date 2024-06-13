@@ -76,3 +76,18 @@
     </tr>
 </table>
 
+
+<h5 id="GET">Get Details</h5>
+
+The getAll method returns all the menu items in a list of objects.
+
+```json
+    [
+	    {
+	    	"id": 1,
+	    	"title": "Hamburguer",
+	    	"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjU0q_h8u0k4pHoGkKKAul0eVIF2SOPC7dQA&s",
+	    	"price": 25
+	    }
+    ]
+```
