@@ -55,3 +55,24 @@
     java -jar target/menu-0.0.1-SNAPSHOT.jar
 ```
 
+
+<h2 id="routes">Endpoints</h2>
+
+<table align="center">
+    <tr>
+        <th>Method</th>
+        <th>Path</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <th>GET</th>
+        <th>/menu/</th>
+        <th><a href="GET">Get Details</a></th>
+    </tr>
+    <tr>
+        <th>POST</th>
+        <th>/menu/addItem</th>
+        <th><a href="POST">Post Item Details</a></th>
+    </tr>
+</table>
+
