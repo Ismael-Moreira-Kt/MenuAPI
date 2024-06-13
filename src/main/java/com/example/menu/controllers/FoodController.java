@@ -1,5 +1,6 @@
 package com.example.menu.controllers;
 
+import com.example.menu.dtos.FoodResponseDTO;
 import com.example.menu.entities.FoodEntity;
 import com.example.menu.repositories.FoodRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,7 @@ public class FoodController {
     private FoodRepository foodRepository;
 
     @GetMapping
-    public List<FoodEntity> getAllItems() {
-        return foodRepository.findAll();
+    public List<FoodResponseDTO> getAllItems() {
+        return foodRepository.findAll().stream().map(FoodResponseDTO::new).toList();
     }
 }
