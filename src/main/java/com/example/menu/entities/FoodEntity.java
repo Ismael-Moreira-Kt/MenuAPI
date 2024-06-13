@@ -1,5 +1,6 @@
 package com.example.menu.entities;
 
+import com.example.menu.dtos.FoodRequestDTO;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -18,4 +19,10 @@ public class FoodEntity {
     private String title;
     private String image;
     private Integer price;
+
+    public FoodEntity(FoodRequestDTO data) {
+        this.title = data.title();
+        this.image = data.image();
+        this.price = data.price();
+    }
 }
